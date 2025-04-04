@@ -57,4 +57,20 @@ filename,count
 src/main.py,3
 tests/test_main.py,2
 README.md,1
-``` 
+```
+
+## Testing
+
+To run the unit tests:
+
+```bash
+pytest
+```
+
+Or to run with verbose output:
+
+```bash
+pytest -v
+```
+
+The tests use Python's unittest framework with pytest and mock the GitHub API responses to avoid actual API calls during testing. 
